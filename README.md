@@ -10,7 +10,11 @@
 - Save HTML files to `public`, CSS to `public/css` and images to `public/img`
 
 ## Submission
-- Create a new local branch labeled with your full name: `firstname-lastname`
-- Commit all your changes to this branch and push it up to this repo with `git push origin your-branch-name`
-- Deploy your work to a publicly available location using `surge.sh` (or similar)
-- Submit your public URL as "proof of work" to Canvas with any comments you'd like to add
+
+1. Fork this repository
+2. Clone your fork to your computer
+3. Commit all your changes and push them up to your fork using `git push`
+4. Submit a PR against _this_ repository, not your fork
+5. **Note**: Re-read (4). We are asking your to do the opposite of what you'd normally do.
+6. Deploy your work to a publicly available location using <https://surge.sh/> (or similar)
+7. Submit your public URL as "proof of work" to Canvas with any comments you'd like to add
