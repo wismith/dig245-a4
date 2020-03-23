@@ -1,0 +1,63 @@
+
+body {
+  background-color: sandybrown;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(128, 13, 0);
+  color: sandybrown;
+  border-bottom: 5px solid saddlebrown;
+  width: 100%;
+  margin: 0;
+  padding: 2%;
+}
+
+#page-content {
+  margin: 2% auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  width: 100%;
+}
+
+.flex-child {
+  margin: auto auto;
+}
+
+.tile {
+  background-color: rgb(128, 13, 0);
+  color: sandybrown;
+  border: 5px solid saddlebrown;
+  border-radius: 2rem;
+  padding: 2%;
+  margin: 2% 2%;
+}
+
+#contact-list {
+  width: 35%;
+  text-align: center;
+  padding: 2%;
+  font-size: 1.3rem;
+}
+
+#contact-list ul {
+  width: fit-content;
+  margin: 2% auto;
+  text-align: left;
+}
+
+#open-contact {
+  width: 60%;
+  font-size: 1.5rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  width: 100%;
+  padding: 2%;
+}
