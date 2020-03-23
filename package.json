@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/wismith/dig245-a4#readme",
   "dependencies": {
+    "fomantic-ui": "^2.8.4",
     "surge": "^0.21.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
