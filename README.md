@@ -3,6 +3,7 @@
 ### Design
 
 - Create one or more wireframes created using [Balsamiq](https://balsamiq.com/) (or similar wireframing tool).  Produce at least 3 iterations (versions) of a small project design. Research similar designs and try new things out. Make sure to use real content in the design.
+- You can also use a piece of paper and pen/pencil. Take a picture of the wireframe and put it in your copy of the repository.
 - Save these designs to the `wireframes` folder
 - Evaluate and choose a CSS framework from an [awesome list](https://project-awesome.org/troxler/awesome-css-frameworks) or [a naive search](https://www.google.com/search?q=css+framework).  If you prefer a recommendation, consider [Semantic UI](http://semantic-ui.com).
 - Code up the design using HTML and the CSS framework you chose.
