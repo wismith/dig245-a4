@@ -18,13 +18,14 @@ header {
 #page-content {
   margin: 2% auto;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  flex-flow: row;
   width: 100%;
+  padding: 2%;
 }
 
 .flex-child {
-  margin: auto auto;
+  margin: 2% 2%;
 }
 
 .tile {
@@ -33,11 +34,11 @@ header {
   border: 5px solid saddlebrown;
   border-radius: 2rem;
   padding: 2%;
-  margin: 2% 2%;
+  margin: 1% 1%;
 }
 
 #contact-list {
-  width: 35%;
+  width: 25%;
   text-align: center;
   padding: 2%;
   font-size: 1.3rem;
@@ -60,4 +61,10 @@ header {
   flex-flow: row;
   width: 100%;
   padding: 2%;
+}
+
+#add-contact {
+  width: 60%;
+  font-size: 1.5rem;
+  height: fit-content;
 }
