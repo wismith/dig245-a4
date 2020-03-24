@@ -1,0 +1,10 @@
+.center {
+  margin: auto auto;
+}
+
+.module {
+  background-color: firebrick;
+  color: goldenrod;
+  border: 5px solid saddlebrown;
+  border-radius: 2rem;
+}

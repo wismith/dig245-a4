@@ -3,7 +3,6 @@
 <head>
   <title>Contacts</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/style1.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
   <script src="../semantic/dist/semantic.min.js"></script>
@@ -14,36 +13,41 @@
     <h1>Contacts</h1>
   </header>
 
-  <div id="page-content">
-    <aside id="contact-list" class="flex-child tile">
-      <h2>Contact List</h2>
-      <ul>
-        <li><a>Mom</a></li>
-        <li><a>Dad</a></li>
-        <li><a>Edie</a></li>
-        <li><a>Sarah</a></li>
-        <li><a>Grandmama</a></li>
-        <li><a>Cap</a></li>
-        <li><a>Nannie</a></li>
-        <li><a>Papa</a></li>
-      </ul>
-
-    </aside>
-
-    <section id="open-contact" class="flex-child tile">
-      <button class="ui button" style="float: right;">Delete</button>
-      <div id="mom" class="contact">
-        <div class="image flex-child">
-          <img src="./img/yoda.png" alt="contact icon">
-        </div>
-        <div class="info flex-child">
-          <h3 class="name">Emmie Smith</h3>
-          <h4 class="phone">Phone: xxx-xxx-xxxx</h4>
-          <h4 class="email">Email: fdshjafdsallgd@gmail.com</h4>
-          <h4 class="relation">Relation: Mother</h4>
+  <div id="page-content" class="ui two column divided grid">
+    <div class="row">
+      <div class="column">
+        <div id="contact-list" class="ui segment">
+          <h2>Contact List</h2>
+          <ul>
+            <li><a>Mom</a></li>
+            <li><a>Dad</a></li>
+            <li><a>Edie</a></li>
+            <li><a>Sarah</a></li>
+            <li><a>Grandmama</a></li>
+            <li><a>Cap</a></li>
+            <li><a>Nannie</a></li>
+            <li><a>Papa</a></li>
+          </ul>
         </div>
       </div>
-    </section>
+      <div class="column">
+        <div id="open-contact" class="ui segment">
+          <button class="ui red button" style="float: right;">Delete</button>
+          <div id="mom" class="contact">
+            <div class="image flex-child">
+              <img src="./img/yoda.png" alt="contact icon">
+            </div>
+            <div class="info flex-child">
+              <h3 class="name">Emmie Smith</h3>
+              <h4 class="phone">Phone: xxx-xxx-xxxx</h4>
+              <h4 class="email">Email: fdshjafdsallgd@gmail.com</h4>
+              <h4 class="relation">Relation: Mother</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>

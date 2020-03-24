@@ -3,51 +3,57 @@
 <head>
   <title>Contacts</title>
   <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/style1.css">
+  <link rel="stylesheet" href="./css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
   <script src="../semantic/dist/semantic.min.js"></script>
 </head>
 <body>
   <header>
-    <h1>Contacts</h1>
+    <h1 class="">Contacts</h1>
   </header>
 
 
 
-  <div id="page-content">
-
-    <button id="add-contact" class="flex-child tile ui button" style="width: 100%;">Add Contact</button>
-
-    <aside id="contact-list" class="flex-child tile">
-      <h2>Contact List</h2>
-      <ul>
-        <li><a>Mom</a></li>
-        <li><a>Dad</a></li>
-        <li><a>Edie</a></li>
-        <li><a>Sarah</a></li>
-        <li><a>Grandmama</a></li>
-        <li><a>Cap</a></li>
-        <li><a>Nannie</a></li>
-        <li><a>Papa</a></li>
-      </ul>
-
-    </aside>
-
-    <section id="open-contact" class="flex-child tile">
-      <button class="ui red button" style="float: right;">Delete</button>
-      <div id="mom" class="contact">
-        <div class="image flex-child">
-          <img src="./img/yoda.png" alt="contact icon">
-        </div>
-        <div class="info flex-child">
-          <h3 class="name">Emmie Smith</h3>
-          <h4 class="phone">Phone: xxx-xxx-xxxx</h4>
-          <h4 class="email">Email: fdshjafdsallgd@gmail.com</h4>
-          <h4 class="relation">Relation: Mother</h4>
+  <div id="page-content" class="ui two column divided grid">
+    <div class="stretched row">
+      <div class="column">
+        <div id="contact-list" class="ui segment">
+          <h2>Contact List</h2>
+          <ul>
+            <li><a>Mom</a></li>
+            <li><a>Dad</a></li>
+            <li><a>Edie</a></li>
+            <li><a>Sarah</a></li>
+            <li><a>Grandmama</a></li>
+            <li><a>Cap</a></li>
+            <li><a>Nannie</a></li>
+            <li><a>Papa</a></li>
+          </ul>
         </div>
       </div>
-    </section>
+
+      <div class="column">
+        <button id="add-contact" class="big green button ui segment" style="width: 100%;">Add Contact</button>
+
+        <section id="open-contact" class="ui segment module">
+          <button class="ui red button">Delete</button>
+          <div id="mom" class="contact">
+            <div class="">
+              <img src="./img/yoda.png" alt="contact icon">
+            </div>
+            <div class="">
+              <h3 class="name">Emmie Smith</h3>
+              <h4 class="phone">Phone: xxx-xxx-xxxx</h4>
+              <h4 class="email">Email: fdshjafdsallgd@gmail.com</h4>
+              <h4 class="relation">Relation: Mother</h4>
+            </div>
+        </section>
+      </div>
+
+    </div>
+
+
 
   </div>
 </body>
