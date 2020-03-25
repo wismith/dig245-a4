@@ -11,53 +11,58 @@
 
 </head>
 <body>
-  <header>
-    <h1 class="">Contacts</h1>
-  </header>
+  <nav>
+    <div class="orange accent-3 brown-text text-darken-4 nav-wrapper" style="text-align: center;">
+      <a href="#" class="brand-logo">Contacts</a>
+    </div>
+  </nav>
 
 
 
-  <div id="page-content" class="">
-    <div class="stretched row">
-      <div class="column">
-        <div id="contact-list" class="">
-          <h2>Contact List</h2>
-          <ul>
-            <li><a>Mom</a></li>
-            <li><a>Dad</a></li>
-            <li><a>Edie</a></li>
-            <li><a>Sarah</a></li>
-            <li><a>Grandmama</a></li>
-            <li><a>Cap</a></li>
-            <li><a>Nannie</a></li>
-            <li><a>Papa</a></li>
-          </ul>
+  <div class="row">
+      <div class="col s12 m4 l4">
+        <div id="contact-list" class="collection with-header brown-text text-darken-4">
+          <h4 class="collection-header center-align">Contact List</h4>
+          <a href="#" class="collection-item">Mom</a>
+          <a href="#" class="collection-item">Dad</a>
+          <a href="#" class="collection-item">Sarah</a>
+          <a href="#" class="collection-item">Grandmama</a>
+          <a href="#" class="collection-item">Cap</a>
+          <a href="#" class="collection-item">Nannie</a>
+          <a href="#" class="collection-item">Papa</a>
+
         </div>
       </div>
 
-      <div class="column">
-        <button id="add-contact" class="" style="">Add Contact</button>
+      <div class="col s12 m8 l8">
+        <div class="section"><a class="waves-effect waves-light btn">Add Contact</a></div>
+        <div class="divider"></div>
+        <div id="mom" class="card brown lighten-4 hoverable brown-text text-darken-4">
+          <div class="right-align"><a class="waves-effect waves-light btn red">Delete</a></div>
 
-        <section id="open-contact" class="">
-          <button class="ui red button">Delete</button>
-          <div id="mom" class="contact">
-            <div class="">
-              <img src="./img/yoda.png" alt="contact icon">
-            </div>
-            <div class="">
-              <h3 class="name">Emmie Smith</h3>
-              <h4 class="phone">Phone: xxx-xxx-xxxx</h4>
-              <h4 class="email">Email: fdshjafdsallgd@gmail.com</h4>
-              <h4 class="relation">Relation: Mother</h4>
-            </div>
-        </section>
+          <div class="center-align"><img class="responsive-img circle" src="./img/yoda.png" alt="contact icon"></div>
+
+          <div class="card-content center-align">
+            <span class="card-title">Emmie Smith</span>
+            <ul>
+              <li>Phone: xxx-xxx-xxxx</li>
+              <li>Email: fdsjaklfdsjfds@gmail.com</li>
+              <li>Relation: Mother</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
     </div>
 
+    <div id="versions" class="center-align" style="text-align: center;">
+      <h5>You are using version 3.</h5>
+      <ul>
+        <li><a href="/index">Switch to Version 1</a></li>
+        <li><a href="/index2">Switch to Version 2</a></li>
+      </ul>
+    </div>
 
-
-  </div>
   <script src="./materialize/js/materialize.min.js"></script>
 </body>
 </html>
